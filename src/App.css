@@ -1,22 +1,27 @@
-#parent {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-color: #330842;
-  border-bottom-right-radius: 200%;
+.welcome {
+  background: #330842;
+  color: white;
 }
-.text-white {
-  text-align: center;
+.welcomeContainer {
+  display: flex;
+  height: 80%;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+
 #form {
   left: 50%;
   top: 40%;
-  background-color: white;
+  height: 50%;
+  width: 90%;
   position: absolute;
   -webkit-transform: translate3d(-50%, -50%, 0);
   -moz-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
 }
+
 button {
   width: 97%;
 }
